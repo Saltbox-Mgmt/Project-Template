@@ -38,7 +38,7 @@ describe("Positive Testing Suite", () => {
         jestDemo.shadowRoot.querySelectorAll(".acctInfo")
       );
       const accountNameArray = accountArray.map((div) => div.textContent);
-      expect(accountNameArray.length).toBe(3);
+      expect(accountNameArray.length).toBe(4);
       expect(accountNameArray).toEqual([
         "Josh Account",
         "Jill Account",
