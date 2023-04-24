@@ -42,7 +42,7 @@ describe("Positive Testing Suite", () => {
       expect(accountNameArray).toEqual([
         "Josh Account",
         "Jill Account",
-        "John Account"
+        "John Account",
         "Bill Account"
       ]);
     });
